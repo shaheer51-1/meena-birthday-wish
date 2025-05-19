@@ -21,6 +21,7 @@ if st.button("🎂 Click to Start Your Birthday Surprise! 🎉"):
         "💖 You deserve all the love and happiness today and always!",
         "🎉 Happy Birthday, my amazing Meena! 🎈🎊",
         "With endless love from Sharry — your forever friend! ❤️",
+        "I Love you so much meena,Meri jan,Begum G"
     ]
     for wish in wishes:
         st.markdown(f"<h3 style='color: #9c27b0;'>{wish}</h3>", unsafe_allow_html=True)
