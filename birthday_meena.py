@@ -31,11 +31,7 @@ if st.button("🎂 Click to Start Your Birthday Surprise! 🎉"):
         time.sleep(2)
         st.empty()
 else:
-    st.markdown("<i>Click the button above to reveal your magical birthday wishes!</i>", unsafe_allow_html=True)
+    st.write("Click the button above to get your birthday wish!")
 
 # Birthday cake image
 st.image("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80", caption="🎂 Sweet Birthday Cake 🎂")
-
-    st.write("Click the button above to get your birthday wish!")
-
-st.image("https://i.imgur.com/0X0sI6D.jpg", caption="🎂🎉")
