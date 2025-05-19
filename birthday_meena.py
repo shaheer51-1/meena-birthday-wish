@@ -5,7 +5,7 @@ st.set_page_config(page_title="🎉 Birthday Wishes for Meena! 🎂", page_icon=
 
 meena_dob = "17 October 2009"
 
-st.markdown(f"<h1 style='text-align: center; color: #ff5722;'>Meena's Date of Birth: {meena_dob}</h1>", unsafe_allow_html=True)
+st.markdown(f"<h1 style='text-align: center; color: #ff5722;'> {meena_dob}</h1>", unsafe_allow_html=True)
 
 st.markdown("<h2 style='text-align: center; color: #4caf50;'>Asalamualikum Wa Rahmatullahi Wa Barakatuh, Meena! 🌙✨</h2>", unsafe_allow_html=True)
 
@@ -28,4 +28,3 @@ if st.button("🎂 Click to Start Your Birthday Surprise! 🎉"):
         st.empty()
 else:
     st.write("Click the button above to get your birthday wish!")
-
